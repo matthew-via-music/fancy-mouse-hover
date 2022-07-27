@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<meta name="robots" content="noindex" />
+<html>
+  <head>
+    <meta name="description" content="fancy mouse over" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Fancy Move Hover 1</title>
+    <style>
+      span {
+        padding: 10px;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: linear-gradient(
+          to top,
+          #ffeb44,
+          #ffeb3b calc(100% - 22px),
+          rgba(0, 0, 0, 0) calc(100% - 22px),
+          rgba(0, 0, 0, 0)
+        );
+        background-origin: padding-box;
+        background-position-x: 128px; /* adjust for word width */
+        background-position-y: -50%;
+        background-repeat: no-repeat;
+        background-size: 100% 200%;
+        box-sizing: border-box;
+        color: rgb(64, 64, 64);
+        cursor: pointer;
+        display: inline-block;
+        font-family: arial, sans-serif;
+        font-size: 56px;
+        line-height: 64px;
+        text-decoration-color: rgb(64, 64, 64);
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-decoration-thickness: auto;
+        transition-delay: 0s;
+        transition-duration: 0.2s;
+        transition-property: all;
+        transition-timing-function: ease;
+        visibility: visible;
+      }
+      span:hover {
+        background-position: 0px 100%;
+      }
+      span:hover:after {
+        font-size: 14px;
+        content: "click me!";
+      }
+    </style>
+  </head>
+  <body>
+    <a
+      href="https://open.spotify.com/track/039eYOCVsxxj7vw8SGHXjV?si=3d3d2883e25e4e09"
+      ><span>Hover</span></a
+    >
+  </body>
+</html>
