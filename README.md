@@ -5,4 +5,4 @@
 
 # Preview
 
-[LIVE DEMO](https://mtpk0.github.io/fancy-mouse-hover-1)
+[LIVE DEMO](https://matthew-via-music.github.io/fancy-mouse-hover)
